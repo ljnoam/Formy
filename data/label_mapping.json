@@ -1,0 +1,1053 @@
+{
+  "groups": {
+    "domaines": {
+      "values": {
+        "cloud computing": [
+          "Cloud Computing"
+        ],
+        "cybersécurité": [
+          "Cybersécurité"
+        ],
+        "data science": [
+          "Data Science"
+        ],
+        "design & création": [
+          "Design & Création"
+        ],
+        "développement web": [
+          "Développement Web"
+        ],
+        "finance & comptabilité": [
+          "Finance & Comptabilité"
+        ],
+        "gestion de projet": [
+          "Gestion de Projet"
+        ],
+        "intelligence artificielle": [
+          "Intelligence Artificielle"
+        ],
+        "langues": [
+          "Langues"
+        ],
+        "marketing digital": [
+          "Marketing Digital"
+        ],
+        "ressources humaines": [
+          "Ressources Humaines"
+        ]
+      },
+      "columns": [
+        "thématique"
+      ]
+    },
+    "sous_domaines": {
+      "values": {
+        "adobe xd": [
+          "Adobe XD"
+        ],
+        "agile": [
+          "Agile"
+        ],
+        "analyse de données": [
+          "Analyse de Données"
+        ],
+        "analyse financière": [
+          "Analyse Financière"
+        ],
+        "anglais professionnel": [
+          "Anglais Professionnel"
+        ],
+        "aws": [
+          "AWS"
+        ],
+        "azure": [
+          "Azure"
+        ],
+        "big data": [
+          "Big Data"
+        ],
+        "comptabilité générale": [
+          "Comptabilité Générale"
+        ],
+        "computer vision": [
+          "Computer Vision"
+        ],
+        "content marketing": [
+          "Content Marketing"
+        ],
+        "contrôle de gestion": [
+          "Contrôle de Gestion"
+        ],
+        "cryptographie": [
+          "Cryptographie"
+        ],
+        "deep learning": [
+          "Deep Learning"
+        ],
+        "django": [
+          "Django"
+        ],
+        "docker": [
+          "Docker"
+        ],
+        "droit du travail": [
+          "Droit du Travail"
+        ],
+        "email marketing": [
+          "Email Marketing"
+        ],
+        "espagnol des affaires": [
+          "Espagnol des Affaires"
+        ],
+        "figma": [
+          "Figma"
+        ],
+        "flask": [
+          "Flask"
+        ],
+        "formation des employés": [
+          "Formation des Employés"
+        ],
+        "français langue étrangère": [
+          "Français Langue Étrangère"
+        ],
+        "gestion de trésorerie": [
+          "Gestion de Trésorerie"
+        ],
+        "google ads": [
+          "Google Ads"
+        ],
+        "google cloud": [
+          "Google Cloud"
+        ],
+        "html/css": [
+          "HTML/CSS"
+        ],
+        "illustrator": [
+          "Illustrator"
+        ],
+        "javascript": [
+          "JavaScript"
+        ],
+        "kanban": [
+          "Kanban"
+        ],
+        "kubernetes": [
+          "Kubernetes"
+        ],
+        "lean management": [
+          "Lean Management"
+        ],
+        "machine learning": [
+          "Machine Learning"
+        ],
+        "mlops": [
+          "MLOps"
+        ],
+        "nlp": [
+          "NLP"
+        ],
+        "node.js": [
+          "Node.js"
+        ],
+        "paie": [
+          "Paie"
+        ],
+        "pandas": [
+          "Pandas"
+        ],
+        "pentesting": [
+          "Pentesting"
+        ],
+        "photoshop": [
+          "Photoshop"
+        ],
+        "prince2": [
+          "Prince2"
+        ],
+        "react": [
+          "React"
+        ],
+        "recrutement": [
+          "Recrutement"
+        ],
+        "scrum": [
+          "Scrum"
+        ],
+        "seo": [
+          "SEO"
+        ],
+        "siem": [
+          "SIEM"
+        ],
+        "social media marketing": [
+          "Social Media Marketing"
+        ],
+        "spark": [
+          "Spark"
+        ],
+        "sql": [
+          "SQL"
+        ],
+        "sécurité des applications": [
+          "Sécurité des Applications"
+        ],
+        "sécurité réseaux": [
+          "Sécurité Réseaux"
+        ],
+        "ui/ux": [
+          "UI/UX"
+        ],
+        "vue.js": [
+          "Vue.js"
+        ]
+      },
+      "columns": [
+        "sous-thématique"
+      ]
+    },
+    "niveaux": {
+      "values": {
+        "avancé": [
+          "Avancé"
+        ],
+        "facile": [
+          "Facile"
+        ],
+        "intermédiaire": [
+          "Intermédiaire"
+        ]
+      },
+      "columns": [
+        "niveau"
+      ]
+    },
+    "formats": {
+      "values": {
+        "pdf": [
+          "PDF"
+        ],
+        "podcast": [
+          "Podcast"
+        ],
+        "projet": [
+          "Projet"
+        ],
+        "quiz": [
+          "Quiz"
+        ],
+        "vidéo": [
+          "Vidéo"
+        ]
+      },
+      "columns": [
+        "format"
+      ]
+    },
+    "langues": {
+      "values": {
+        "en": [
+          "EN"
+        ],
+        "fr": [
+          "FR"
+        ]
+      },
+      "columns": [
+        "langue"
+      ]
+    },
+    "certifications": {
+      "values": {
+        "non": [
+          "Non"
+        ],
+        "non - certificat de adobe xd": [
+          "Non - Certificat de Adobe XD"
+        ],
+        "non - certificat de agile": [
+          "Non - Certificat de Agile"
+        ],
+        "non - certificat de analyse de données": [
+          "Non - Certificat de Analyse de Données"
+        ],
+        "non - certificat de analyse financière": [
+          "Non - Certificat de Analyse Financière"
+        ],
+        "non - certificat de anglais professionnel": [
+          "Non - Certificat de Anglais Professionnel"
+        ],
+        "non - certificat de aws": [
+          "Non - Certificat de AWS"
+        ],
+        "non - certificat de azure": [
+          "Non - Certificat de Azure"
+        ],
+        "non - certificat de big data": [
+          "Non - Certificat de Big Data"
+        ],
+        "non - certificat de comptabilité générale": [
+          "Non - Certificat de Comptabilité Générale"
+        ],
+        "non - certificat de computer vision": [
+          "Non - Certificat de Computer Vision"
+        ],
+        "non - certificat de content marketing": [
+          "Non - Certificat de Content Marketing"
+        ],
+        "non - certificat de contrôle de gestion": [
+          "Non - Certificat de Contrôle de Gestion"
+        ],
+        "non - certificat de cryptographie": [
+          "Non - Certificat de Cryptographie"
+        ],
+        "non - certificat de deep learning": [
+          "Non - Certificat de Deep Learning"
+        ],
+        "non - certificat de django": [
+          "Non - Certificat de Django"
+        ],
+        "non - certificat de docker": [
+          "Non - Certificat de Docker"
+        ],
+        "non - certificat de droit du travail": [
+          "Non - Certificat de Droit du Travail"
+        ],
+        "non - certificat de email marketing": [
+          "Non - Certificat de Email Marketing"
+        ],
+        "non - certificat de espagnol des affaires": [
+          "Non - Certificat de Espagnol des Affaires"
+        ],
+        "non - certificat de figma": [
+          "Non - Certificat de Figma"
+        ],
+        "non - certificat de flask": [
+          "Non - Certificat de Flask"
+        ],
+        "non - certificat de formation des employés": [
+          "Non - Certificat de Formation des Employés"
+        ],
+        "non - certificat de français langue étrangère": [
+          "Non - Certificat de Français Langue Étrangère"
+        ],
+        "non - certificat de gestion de trésorerie": [
+          "Non - Certificat de Gestion de Trésorerie"
+        ],
+        "non - certificat de google ads": [
+          "Non - Certificat de Google Ads"
+        ],
+        "non - certificat de google cloud": [
+          "Non - Certificat de Google Cloud"
+        ],
+        "non - certificat de html/css": [
+          "Non - Certificat de HTML/CSS"
+        ],
+        "non - certificat de illustrator": [
+          "Non - Certificat de Illustrator"
+        ],
+        "non - certificat de javascript": [
+          "Non - Certificat de JavaScript"
+        ],
+        "non - certificat de kanban": [
+          "Non - Certificat de Kanban"
+        ],
+        "non - certificat de kubernetes": [
+          "Non - Certificat de Kubernetes"
+        ],
+        "non - certificat de lean management": [
+          "Non - Certificat de Lean Management"
+        ],
+        "non - certificat de machine learning": [
+          "Non - Certificat de Machine Learning"
+        ],
+        "non - certificat de mlops": [
+          "Non - Certificat de MLOps"
+        ],
+        "non - certificat de nlp": [
+          "Non - Certificat de NLP"
+        ],
+        "non - certificat de node.js": [
+          "Non - Certificat de Node.js"
+        ],
+        "non - certificat de paie": [
+          "Non - Certificat de Paie"
+        ],
+        "non - certificat de pandas": [
+          "Non - Certificat de Pandas"
+        ],
+        "non - certificat de pentesting": [
+          "Non - Certificat de Pentesting"
+        ],
+        "non - certificat de photoshop": [
+          "Non - Certificat de Photoshop"
+        ],
+        "non - certificat de prince2": [
+          "Non - Certificat de Prince2"
+        ],
+        "non - certificat de react": [
+          "Non - Certificat de React"
+        ],
+        "non - certificat de recrutement": [
+          "Non - Certificat de Recrutement"
+        ],
+        "non - certificat de scrum": [
+          "Non - Certificat de Scrum"
+        ],
+        "non - certificat de seo": [
+          "Non - Certificat de SEO"
+        ],
+        "non - certificat de siem": [
+          "Non - Certificat de SIEM"
+        ],
+        "non - certificat de social media marketing": [
+          "Non - Certificat de Social Media Marketing"
+        ],
+        "non - certificat de spark": [
+          "Non - Certificat de Spark"
+        ],
+        "non - certificat de sql": [
+          "Non - Certificat de SQL"
+        ],
+        "non - certificat de sécurité des applications": [
+          "Non - Certificat de Sécurité des Applications"
+        ],
+        "non - certificat de sécurité réseaux": [
+          "Non - Certificat de Sécurité Réseaux"
+        ],
+        "non - certificat de ui/ux": [
+          "Non - Certificat de UI/UX"
+        ],
+        "non - certificat de vue.js": [
+          "Non - Certificat de Vue.js"
+        ],
+        "oui": [
+          "Oui"
+        ],
+        "oui - certificat de adobe xd": [
+          "Oui - Certificat de Adobe XD"
+        ],
+        "oui - certificat de agile": [
+          "Oui - Certificat de Agile"
+        ],
+        "oui - certificat de analyse de données": [
+          "Oui - Certificat de Analyse de Données"
+        ],
+        "oui - certificat de analyse financière": [
+          "Oui - Certificat de Analyse Financière"
+        ],
+        "oui - certificat de anglais professionnel": [
+          "Oui - Certificat de Anglais Professionnel"
+        ],
+        "oui - certificat de aws": [
+          "Oui - Certificat de AWS"
+        ],
+        "oui - certificat de azure": [
+          "Oui - Certificat de Azure"
+        ],
+        "oui - certificat de big data": [
+          "Oui - Certificat de Big Data"
+        ],
+        "oui - certificat de comptabilité générale": [
+          "Oui - Certificat de Comptabilité Générale"
+        ],
+        "oui - certificat de computer vision": [
+          "Oui - Certificat de Computer Vision"
+        ],
+        "oui - certificat de content marketing": [
+          "Oui - Certificat de Content Marketing"
+        ],
+        "oui - certificat de contrôle de gestion": [
+          "Oui - Certificat de Contrôle de Gestion"
+        ],
+        "oui - certificat de cryptographie": [
+          "Oui - Certificat de Cryptographie"
+        ],
+        "oui - certificat de deep learning": [
+          "Oui - Certificat de Deep Learning"
+        ],
+        "oui - certificat de django": [
+          "Oui - Certificat de Django"
+        ],
+        "oui - certificat de docker": [
+          "Oui - Certificat de Docker"
+        ],
+        "oui - certificat de droit du travail": [
+          "Oui - Certificat de Droit du Travail"
+        ],
+        "oui - certificat de email marketing": [
+          "Oui - Certificat de Email Marketing"
+        ],
+        "oui - certificat de espagnol des affaires": [
+          "Oui - Certificat de Espagnol des Affaires"
+        ],
+        "oui - certificat de figma": [
+          "Oui - Certificat de Figma"
+        ],
+        "oui - certificat de flask": [
+          "Oui - Certificat de Flask"
+        ],
+        "oui - certificat de formation des employés": [
+          "Oui - Certificat de Formation des Employés"
+        ],
+        "oui - certificat de français langue étrangère": [
+          "Oui - Certificat de Français Langue Étrangère"
+        ],
+        "oui - certificat de gestion de trésorerie": [
+          "Oui - Certificat de Gestion de Trésorerie"
+        ],
+        "oui - certificat de google ads": [
+          "Oui - Certificat de Google Ads"
+        ],
+        "oui - certificat de google cloud": [
+          "Oui - Certificat de Google Cloud"
+        ],
+        "oui - certificat de html/css": [
+          "Oui - Certificat de HTML/CSS"
+        ],
+        "oui - certificat de illustrator": [
+          "Oui - Certificat de Illustrator"
+        ],
+        "oui - certificat de javascript": [
+          "Oui - Certificat de JavaScript"
+        ],
+        "oui - certificat de kanban": [
+          "Oui - Certificat de Kanban"
+        ],
+        "oui - certificat de kubernetes": [
+          "Oui - Certificat de Kubernetes"
+        ],
+        "oui - certificat de lean management": [
+          "Oui - Certificat de Lean Management"
+        ],
+        "oui - certificat de machine learning": [
+          "Oui - Certificat de Machine Learning"
+        ],
+        "oui - certificat de mlops": [
+          "Oui - Certificat de MLOps"
+        ],
+        "oui - certificat de nlp": [
+          "Oui - Certificat de NLP"
+        ],
+        "oui - certificat de node.js": [
+          "Oui - Certificat de Node.js"
+        ],
+        "oui - certificat de paie": [
+          "Oui - Certificat de Paie"
+        ],
+        "oui - certificat de pandas": [
+          "Oui - Certificat de Pandas"
+        ],
+        "oui - certificat de pentesting": [
+          "Oui - Certificat de Pentesting"
+        ],
+        "oui - certificat de photoshop": [
+          "Oui - Certificat de Photoshop"
+        ],
+        "oui - certificat de prince2": [
+          "Oui - Certificat de Prince2"
+        ],
+        "oui - certificat de react": [
+          "Oui - Certificat de React"
+        ],
+        "oui - certificat de recrutement": [
+          "Oui - Certificat de Recrutement"
+        ],
+        "oui - certificat de scrum": [
+          "Oui - Certificat de Scrum"
+        ],
+        "oui - certificat de seo": [
+          "Oui - Certificat de SEO"
+        ],
+        "oui - certificat de siem": [
+          "Oui - Certificat de SIEM"
+        ],
+        "oui - certificat de social media marketing": [
+          "Oui - Certificat de Social Media Marketing"
+        ],
+        "oui - certificat de spark": [
+          "Oui - Certificat de Spark"
+        ],
+        "oui - certificat de sql": [
+          "Oui - Certificat de SQL"
+        ],
+        "oui - certificat de sécurité des applications": [
+          "Oui - Certificat de Sécurité des Applications"
+        ],
+        "oui - certificat de sécurité réseaux": [
+          "Oui - Certificat de Sécurité Réseaux"
+        ],
+        "oui - certificat de ui/ux": [
+          "Oui - Certificat de UI/UX"
+        ],
+        "oui - certificat de vue.js": [
+          "Oui - Certificat de Vue.js"
+        ]
+      },
+      "columns": [
+        "certification"
+      ]
+    },
+    "plateformes": {
+      "values": {
+        "coursera": [
+          "Coursera"
+        ],
+        "edx": [
+          "edX"
+        ],
+        "fun-mooc": [
+          "Fun-MOOC"
+        ],
+        "futurelearn": [
+          "FutureLearn"
+        ],
+        "linkedin learning": [
+          "LinkedIn Learning"
+        ],
+        "openclassrooms": [
+          "OpenClassrooms"
+        ],
+        "udemy": [
+          "Udemy"
+        ]
+      },
+      "columns": [
+        "plateforme_source"
+      ]
+    },
+    "objectifs": {
+      "values": {
+        "vous saurez maîtriser les bases de adobe xd.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de adobe xd."
+        ],
+        "vous saurez maîtriser les bases de agile.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de agile."
+        ],
+        "vous saurez maîtriser les bases de analyse de données.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de analyse de données."
+        ],
+        "vous saurez maîtriser les bases de analyse financière.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de analyse financière."
+        ],
+        "vous saurez maîtriser les bases de anglais professionnel.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de anglais professionnel."
+        ],
+        "vous saurez maîtriser les bases de aws.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de aws."
+        ],
+        "vous saurez maîtriser les bases de azure.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de azure."
+        ],
+        "vous saurez maîtriser les bases de big data.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de big data."
+        ],
+        "vous saurez maîtriser les bases de comptabilité générale.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de comptabilité générale."
+        ],
+        "vous saurez maîtriser les bases de computer vision.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de computer vision."
+        ],
+        "vous saurez maîtriser les bases de content marketing.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de content marketing."
+        ],
+        "vous saurez maîtriser les bases de contrôle de gestion.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de contrôle de gestion."
+        ],
+        "vous saurez maîtriser les bases de cryptographie.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de cryptographie."
+        ],
+        "vous saurez maîtriser les bases de deep learning.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de deep learning."
+        ],
+        "vous saurez maîtriser les bases de django.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de django."
+        ],
+        "vous saurez maîtriser les bases de docker.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de docker."
+        ],
+        "vous saurez maîtriser les bases de droit du travail.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de droit du travail."
+        ],
+        "vous saurez maîtriser les bases de email marketing.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de email marketing."
+        ],
+        "vous saurez maîtriser les bases de espagnol des affaires.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de espagnol des affaires."
+        ],
+        "vous saurez maîtriser les bases de figma.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de figma."
+        ],
+        "vous saurez maîtriser les bases de flask.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de flask."
+        ],
+        "vous saurez maîtriser les bases de formation des employés.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de formation des employés."
+        ],
+        "vous saurez maîtriser les bases de français langue étrangère.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de français langue étrangère."
+        ],
+        "vous saurez maîtriser les bases de gestion de trésorerie.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de gestion de trésorerie."
+        ],
+        "vous saurez maîtriser les bases de google ads.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de google ads."
+        ],
+        "vous saurez maîtriser les bases de google cloud.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de google cloud."
+        ],
+        "vous saurez maîtriser les bases de html/css.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de html/css."
+        ],
+        "vous saurez maîtriser les bases de illustrator.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de illustrator."
+        ],
+        "vous saurez maîtriser les bases de javascript.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de javascript."
+        ],
+        "vous saurez maîtriser les bases de kanban.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de kanban."
+        ],
+        "vous saurez maîtriser les bases de kubernetes.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de kubernetes."
+        ],
+        "vous saurez maîtriser les bases de lean management.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de lean management."
+        ],
+        "vous saurez maîtriser les bases de machine learning.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de machine learning."
+        ],
+        "vous saurez maîtriser les bases de mlops.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de mlops."
+        ],
+        "vous saurez maîtriser les bases de nlp.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de nlp."
+        ],
+        "vous saurez maîtriser les bases de node.js.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de node.js."
+        ],
+        "vous saurez maîtriser les bases de paie.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de paie."
+        ],
+        "vous saurez maîtriser les bases de pandas.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de pandas."
+        ],
+        "vous saurez maîtriser les bases de pentesting.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de pentesting."
+        ],
+        "vous saurez maîtriser les bases de photoshop.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de photoshop."
+        ],
+        "vous saurez maîtriser les bases de prince2.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de prince2."
+        ],
+        "vous saurez maîtriser les bases de react.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de react."
+        ],
+        "vous saurez maîtriser les bases de recrutement.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de recrutement."
+        ],
+        "vous saurez maîtriser les bases de scrum.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de scrum."
+        ],
+        "vous saurez maîtriser les bases de seo.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de seo."
+        ],
+        "vous saurez maîtriser les bases de siem.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de siem."
+        ],
+        "vous saurez maîtriser les bases de social media marketing.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de social media marketing."
+        ],
+        "vous saurez maîtriser les bases de spark.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de spark."
+        ],
+        "vous saurez maîtriser les bases de sql.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de sql."
+        ],
+        "vous saurez maîtriser les bases de sécurité des applications.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de sécurité des applications."
+        ],
+        "vous saurez maîtriser les bases de sécurité réseaux.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de sécurité réseaux."
+        ],
+        "vous saurez maîtriser les bases de ui/ux.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de ui/ux."
+        ],
+        "vous saurez maîtriser les bases de vue.js.": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de vue.js."
+        ],
+        "vous saurez maîtriser les fondamentaux de adobe xd et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Adobe XD et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de agile et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Agile et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de analyse de données et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Analyse de Données et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de analyse financière et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Analyse Financière et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de anglais professionnel et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Anglais Professionnel et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de aws et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de AWS et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de azure et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Azure et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de big data et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Big Data et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de comptabilité générale et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Comptabilité Générale et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de computer vision et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Computer Vision et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de content marketing et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Content Marketing et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de contrôle de gestion et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Contrôle de Gestion et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de cryptographie et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Cryptographie et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de deep learning et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Deep Learning et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de django et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Django et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de docker et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Docker et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de droit du travail et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Droit du Travail et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de email marketing et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Email Marketing et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de espagnol des affaires et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Espagnol des Affaires et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de figma et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Figma et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de flask et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Flask et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de formation des employés et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Formation des Employés et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de français langue étrangère et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Français Langue Étrangère et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de gestion de trésorerie et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Gestion de Trésorerie et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de google ads et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Google Ads et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de google cloud et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Google Cloud et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de html/css et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de HTML/CSS et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de illustrator et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Illustrator et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de javascript et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de JavaScript et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de kanban et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Kanban et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de kubernetes et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Kubernetes et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de lean management et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Lean Management et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de machine learning et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Machine Learning et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de mlops et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de MLOps et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de nlp et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de NLP et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de node.js et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Node.js et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de paie et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Paie et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de pandas et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Pandas et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de pentesting et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Pentesting et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de photoshop et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Photoshop et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de prince2 et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Prince2 et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de react et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de React et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de recrutement et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Recrutement et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de scrum et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Scrum et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de seo et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de SEO et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de siem et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de SIEM et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de social media marketing et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Social Media Marketing et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de spark et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Spark et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de sql et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de SQL et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de sécurité des applications et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Sécurité des Applications et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de sécurité réseaux et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Sécurité Réseaux et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de ui/ux et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de UI/UX et les appliquer dans des projets concrets."
+        ],
+        "vous saurez maîtriser les fondamentaux de vue.js et les appliquer dans des projets concrets.": [
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Vue.js et les appliquer dans des projets concrets."
+        ],
+        "à l'issue de cette formation": [
+          "À l'issue de cette formation, vous saurez maîtriser les bases de adobe xd.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de agile.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de analyse de données.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de analyse financière.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de anglais professionnel.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de aws.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de azure.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de big data.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de comptabilité générale.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de computer vision.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de content marketing.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de contrôle de gestion.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de cryptographie.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de deep learning.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de django.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de docker.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de droit du travail.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de email marketing.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de espagnol des affaires.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de figma.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de flask.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de formation des employés.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de français langue étrangère.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de gestion de trésorerie.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de google ads.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de google cloud.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de html/css.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de illustrator.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de javascript.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de kanban.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de kubernetes.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de lean management.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de machine learning.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de mlops.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de nlp.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de node.js.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de paie.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de pandas.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de pentesting.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de photoshop.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de prince2.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de react.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de recrutement.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de scrum.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de seo.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de siem.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de social media marketing.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de spark.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de sql.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de sécurité des applications.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de sécurité réseaux.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de ui/ux.",
+          "À l'issue de cette formation, vous saurez maîtriser les bases de vue.js.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de AWS et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Adobe XD et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Agile et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Analyse Financière et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Analyse de Données et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Anglais Professionnel et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Azure et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Big Data et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Comptabilité Générale et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Computer Vision et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Content Marketing et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Contrôle de Gestion et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Cryptographie et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Deep Learning et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Django et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Docker et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Droit du Travail et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Email Marketing et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Espagnol des Affaires et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Figma et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Flask et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Formation des Employés et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Français Langue Étrangère et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Gestion de Trésorerie et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Google Ads et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Google Cloud et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de HTML/CSS et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Illustrator et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de JavaScript et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Kanban et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Kubernetes et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Lean Management et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de MLOps et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Machine Learning et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de NLP et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Node.js et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Paie et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Pandas et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Pentesting et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Photoshop et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Prince2 et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de React et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Recrutement et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de SEO et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de SIEM et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de SQL et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Scrum et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Social Media Marketing et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Spark et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Sécurité Réseaux et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Sécurité des Applications et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de UI/UX et les appliquer dans des projets concrets.",
+          "À l'issue de cette formation, vous saurez maîtriser les fondamentaux de Vue.js et les appliquer dans des projets concrets."
+        ]
+      },
+      "columns": [
+        "objectif_pédagogique"
+      ]
+    }
+  }
+}
