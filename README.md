@@ -1,118 +1,175 @@
+# 🤖 FormyBot – Chatbot de recommandation de formations
 
-# 📚 Formy – Moteur intelligent de recommandation de formations
-
-Formy est un moteur de recherche intelligent de formations, basé sur l’analyse de langage naturel (NLP) et un système de matching multicritères.  
-Il permet à un utilisateur de décrire librement ce qu’il veut apprendre (ex: *"Je veux apprendre la cybersécurité en français"*) et reçoit en retour les meilleures formations issues d’un dataset.
-
----
-
-## 📁 Structure du projet
-
-```
-Formy/
-│
-├── main.py                      # Script principal à exécuter
-├── requirements.txt            # Dépendances Python à installer
-├── formations_dataset_10000_clean.csv  # Base de données des formations (CSV)
-│
-├── data/
-│   └── label_mapping.json      # Mapping entre labels NLP et colonnes du dataset
-│
-└── nlp/
-    ├── extractor.py            # Extraction des mots-clés depuis la phrase utilisateur (NLP)
-    ├── matcher.py              # Système de matching intelligent (filtrage + scoring)
-    └── preprocess.py           # Fonctions utilitaires de nettoyage et normalisation
-```
+FormyBot est un assistant conversationnel intelligent qui aide les utilisateurs à trouver des formations en ligne en fonction de leurs objectifs, préférences et contraintes.  
+Il s’appuie sur du **traitement du langage naturel (NLP)** et un moteur de **matching sémantique** pour proposer les formations les plus pertinentes.
 
 ---
 
-## ⚙️ Installation (1ère fois)
+## 🚀 Fonctionnalités principales
 
-### 1. Clone ou copie du dossier `Formy`
-Assure-toi d’avoir **Python 3.8+** installé sur ta machine.
+- 💬 Interface conversationnelle (actuellement en terminal)
+- 🧠 Analyse automatique des intentions et préférences via NLP
+- 🎯 Recommandation intelligente de formations depuis un dataset de 10 000+
+- 🌐 Multilingue, multi-format, tous niveaux
+- ⚡ Optimisé pour fonctionner **localement sur CPU**
+
+---
+
+## 🛠️ Installation
+
+### 1. Cloner le dépôt
 
 ```bash
-cd Formy
+git clone https://github.com/toncompte/formybot.git
+cd formybot
 ```
 
-### 2. Crée un environnement virtuel (recommandé)
+### 2. Créer un environnement virtuel
 
 ```bash
 python -m venv venv
-source venv/bin/activate      # Linux/Mac
-venv\Scripts\activate         # Windows
+venv\Scripts\activate   # Windows
+# ou
+source venv/bin/activate  # Mac/Linux
 ```
 
-### 3. Installe les dépendances Python
+### 3. Installer les dépendances
 
 ```bash
-pip install --upgrade pip
 pip install -r requirements.txt
-```
-
-### 4. Télécharge les modèles SpaCy (langue française)
-
-```bash
 python -m spacy download fr_core_news_md
 ```
 
 ---
 
-## 🚀 Lancer le projet
-
-Dans le terminal (avec l’environnement activé), exécute :
+## ▶️ Lancement du chatbot (mode terminal)
 
 ```bash
-python main.py
+python chatbot_terminal.py
 ```
 
-🧠 Tu peux alors taper une phrase comme :
+Vous pouvez alors discuter avec le bot :
+```
+👤 Toi : Salut, j’aimerais apprendre la cybersécurité
+🤖 Formy : Tu veux suivre la formation en quelle langue ? ...
+```
+
+Tapez `exit` pour quitter.
+
+---
+
+## 🧠 Comment fonctionne le NLP ?
+
+Le NLP repose sur deux technologies principales :
+
+### 🔹 `spaCy` (modèle français `fr_core_news_md`)
+- Utilisé pour l’expansion de synonymes
+- Aide à enrichir les labels extraits
+
+### 🔹 `transformers` – modèle `facebook/bart-large-mnli`
+- Pipeline `zero-shot-classification`
+- Permet de classer n'importe quel texte utilisateur parmi une **centaine de labels candidats**
+- Exemple : "Je veux un travail dans la cybersécurité" ➝ détecte `cybersécurité`, `cryptographie`, etc.
+
+> ⚠️ Pour optimiser la vitesse, le chargement du modèle est "lazy" = il ne s'initialise qu'à la première demande.
+
+---
+
+## 📊 Données utilisées
+
+Le fichier `formations_dataset_10000_clean.csv` contient toutes les formations disponibles.
+
+Chaque formation a les colonnes suivantes :
+- `titre`
+- `thématique` / `sous-thématique`
+- `niveau`
+- `format`
+- `langue`
+- `certification`
+- `plateforme_source`
+- `note_utilisateurs`, `nombre_avis`, `taux_de_succès`
+
+---
+
+## 🤖 Fonctionnement du chatbot (`formybot.py`)
+
+### Étapes de dialogue :
+1. L'utilisateur exprime son besoin librement
+2. Le NLP extrait les **labels** et **entités**
+3. Le bot demande des infos complémentaires :
+   - Langue
+   - Format
+   - Niveau
+4. Ensuite il déclenche un `matching`
+5. Les résultats sont affichés avec :
+   - Titre, plateforme, niveau, prix, lien
+
+### Exemple :
+```
+👤 Toi : Je veux apprendre le machine learning
+🤖 Formy : Tu veux suivre la formation en quelle langue ?
+...
+```
+
+---
+
+## ⚙️ Matching intelligent (`matcher.py`)
+
+- Le matching compare le **profil utilisateur** avec le dataset de formations.
+- Un **filtrage prioritaire** est appliqué sur la thématique
+- Puis un **filtrage secondaire** (langue, format, niveau…)
+- Les résultats sont **triés par qualité** (note, avis, taux de succès)
+
+---
+
+## 🧪 Tester manuellement le NLP
+
+Vous pouvez tester directement le module NLP :
+
+```python
+from nlp.extractor import extract_info
+
+text = "Je cherche une formation en cybersécurité, plutôt débutant"
+print(extract_info(text))
+```
+
+Cela renverra un dictionnaire avec :
+- `labels`
+- `labels_by_group`
+- `entities` (ex: "10h/semaine", "objectif pro", etc.)
+
+---
+
+## 📁 Arborescence du projet
 
 ```
-Je veux apprendre la cybersécurité en vidéo, niveau intermédiaire, en français.
+formybot/
+├── chatbot_terminal.py       # Interface terminal
+├── formybot.py               # Logique du chatbot
+├── requirements.txt          # Dépendances Python
+├── formations_dataset_10000_clean.csv
+├── data/
+│   └── label_mapping.json    # Regroupe les synonymes et les mappings NLP
+├── nlp/
+│   ├── extractor.py          # Traitement NLP + classification
+│   ├── matcher.py            # Système de recommandation
+│   ├── preprocess.py         # Nettoyage de texte
+└── .gitignore
 ```
 
-Formy affichera alors les **5 meilleures formations matchées** selon :
-- la thématique demandée
-- le format et la langue
-- le niveau de difficulté
-- les notes utilisateurs et taux de réussite
-- les certifications disponibles
+---
+
+## ✅ À venir (ou bonus)
+
+- Interface Web avec React ou Streamlit
+- Reset de la session via `reset`
+- Gestion de plusieurs utilisateurs
+- Enrichissement du dataset
 
 ---
 
-## 🔍 Fonctionnement interne
+## 📞 Contact
 
-### 🔹 NLP (`extractor.py`)
-- Utilise `transformers` pour faire du **zero-shot classification** à partir d’un mapping défini dans `label_mapping.json`
-- Classe les labels extraits par catégories : domaines, formats, langues, niveaux, etc.
-- Supprime les labels parasites génériques (`"oui"`, `"en"`, etc.)
-
-### 🔹 Matching (`matcher.py`)
-- Filtrage prioritaire sur les colonnes `thématique` et `sous-thématique`
-- Puis filtrage secondaire sur les colonnes secondaires (`langue`, `certification`, `format`, etc.)
-- Si trop de formations sont encore présentes, un **scoring qualité** est appliqué :  
-  (note/5) × 40 + (avis/500) × 30 + (taux de succès/100) × 30
-
----
-
-## 🧪 Tester avec un petit dataset
-
-Si tu veux tester rapidement le système, tu peux remplacer le fichier `formations_dataset_10000_clean.csv` par une version allégée avec 1000 lignes.
-
----
-
-## 💡 Améliorations possibles
-
-- Ajouter une **interface web** (ex: Flask + HTML)
-- Logger les interactions utilisateurs
-- Gérer les synonymes ou champs lexicaux
-- Apprendre du feedback utilisateur
-
----
-
-
-
-
-
-Projet développé par l’équipe Étudiant ECE – promo 2026  
+Projet réalisé dans le cadre du module **Mise en Situation Professionnelle 2025 – ECE Paris**  
+Équipe : Noam + collaborateurs  
+Encadrant : [Nom du prof]
